@@ -9,7 +9,7 @@ angular.module('LunchCheck', [])
         var userInput = $scope.userInput;
         
         if (!userInput) {
-            $scope.message = "Empty";
+            $scope.message = "Please enter data first";
             return;
         }
         
